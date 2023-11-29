@@ -1,9 +1,13 @@
+USE hippo_ryan;
+
+TRUNCATE albums;
+
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('Michael Jackson', 'Thriller', '1982', '70', 'Pop, funk, rock'),
        ('AC/DC', 'Back in Black', '1980', '50', 'Hard rock'),
        ('Whitney Houston', 'The Bodyguard', '1992', '45', 'R&B, soul, pop, soundtrack'),
        ('Pink Floyd', 'The Dark Side of the Moon', '1973', '45', 'Progressive rock'),
-       ('Eagles', 'Their Greatest Hits (1971-1975)', '1976', '44', 'Country rock, soft rock, folk rock'),
+       ('Eagles', 'Their Greatest Hits (1971-1975)', '1976', '44', 'Country rock, soft rock'),
        ('Meat Loaf', 'Bat Out of Hell', '1977', '43', 'Soft rock'),
        ('Eagles', 'Hotel California', '1976', '42', 'Soft rock'),
        ('Shania Twain', 'Come On Over', '1997', '40', 'Country, pop'),
