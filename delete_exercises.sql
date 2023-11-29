@@ -1,8 +1,9 @@
 USE hippo_ryan;
 
-SELECT name FROM albums WHERE release_date >= 1991;
 
-SELECT name FROM albums WHERE genre = 'Disco';
+DELETE FROM albums WHERE release_date >= 1991;
 
-SELECT name FROM albums WHERE artist = 'Whitney Houston';
+DELETE FROM albums WHERE genre = 'Disco';
+
+DELETE FROM albums WHERE artist = 'Whitney Houston';
 
