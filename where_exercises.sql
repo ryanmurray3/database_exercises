@@ -10,3 +10,5 @@ SELECT * FROM employees WHERE LEFT(SUBSTRING_INDEX(last_name, ' ', -1), 1) = 'E'
 
 SELECT * FROM employees WHERE last_name LIKE '%q%' AND last_name NOT LIKE '%qu%';
 
+SHOW INDEXES FROM employees;
+
